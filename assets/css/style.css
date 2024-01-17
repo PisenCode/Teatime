@@ -8,14 +8,16 @@ html {
 body {
     margin: 0 auto;
 
-    background-color: rgb(236,219,196);
+    background-color: rgb(236, 219, 196);
 
     font-family: 'Mina', sans-serif;
     letter-spacing: 2px;
 }
 
 /* Basic Style To Elements */
-h1, h2, p {
+h1,
+h2,
+p {
     margin: 0;
     color: black;
 }
@@ -23,6 +25,12 @@ h1, h2, p {
 a {
     color: black;
     text-decoration: none;
+}
+
+span {
+    padding-left: 5rem;
+
+    text-transform: uppercase;
 }
 
 /* Header & Nav Menu */
@@ -33,7 +41,7 @@ header {
     text-transform: uppercase;
 
     padding-left: 5rem;
-    background-color: rgb(236,219,196);
+    background-color: rgb(236, 219, 196);
 }
 
 #menu {
@@ -73,13 +81,14 @@ header {
     bottom: 18rem;
     background: rgb(236 219 196 / 32%);
     width: 100%;
-    padding: 20px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 /* Headline */
 #headline {
     font-size: 1rem;
-    
+
     padding: 5rem;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -89,13 +98,39 @@ header {
 .row {
     display: flex;
     gap: 3rem;
-    padding: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
 }
-  
+
 .column {
     flex: 33.33%;
 }
 
 img {
     width: 100%;
+}
+
+/* About */
+#about {
+    background-color: rgb(165 157 139);
+}
+
+#about-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.about-box {
+    margin: 0;
+    color: rgb(51 49 49);
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(236, 219, 196);
 }
