@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Mina&display=swap');
+
+/* Basic Page Style */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+
+    background-color: rgb(236,219,196);
+
+    font-family: 'Mina', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* Basic Style To Elements */
+h1 {
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Header & Nav Menu */
+header {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    text-transform: uppercase;
+
+    padding-left: 5rem;
+    background-color: rgb(236,219,196);
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    text-transform: uppercase;
+
+    padding-left: 5rem;
+    gap: 6.5rem;
+
+    background-color: bisque;
+}
+
+/* Hero Image */
+#hero-outer {
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-img {
+    height: 80vh;
+    width: 100%;
+    background: url(/assets/images/hero-tea.png) no-repeat center center;
+    background-size: cover;
+}
+
+/* Hero Text-Box */
+#hero-text-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    position: absolute;
+    bottom: 18rem;
+    background: rgb(236 219 196 / 32%);
+    width: 100%;
+    padding: 20px;
+}
